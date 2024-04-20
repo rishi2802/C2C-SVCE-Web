@@ -1,0 +1,142 @@
+.member{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.team h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.image_member{
+    position: relative;
+}
+.member > h6{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.member > p{
+    margin: 0%;
+    padding: 0%;
+    font-size: small;
+    font-weight: 500;
+    color: #a9a9a9;
+    margin-top: 5px;
+ }
+.member > div >  img{
+    width: 150px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.img_overlay{
+    transform: scale(1.1);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+.img_overlay > *{
+    transform: translateX(20px);
+    transition: 0.5s;
+}
+.img_overlay:hover{
+    opacity: 1;
+}
+.img_overlay:hover > *{
+    transform: translateX(0);
+}
+.core{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.team  h2{
+    margin: 10px auto;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper{
+    width: 100%;
+    background-color: #5c4646;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.wrapper > h2{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:600px){
+    .member > h6{
+        font-size: 3vw;
+    }
+    .member > div > img{
+        width: 100px;
+    }
+    .core{
+        width: 100%;
+        gap: 10px;
+    }
+}
+.but button{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 20px;
+    min-width: 150px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'San Francisco', sans-serif;
+    
+    
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.but{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .but button {
+        padding: 10px; /* Decrease padding for smaller screens */
+        min-width: 120px; /* Adjust minimum width for smaller screens */
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
+}

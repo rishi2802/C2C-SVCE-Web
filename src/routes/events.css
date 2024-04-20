@@ -1,0 +1,109 @@
+.events{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url("../assets/events-bg.png");
+    background-size: cover;
+    /* height: 500px; */
+    box-sizing: border-box;
+    padding: 25px;
+}
+.events > select{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 10px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.events-cont{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 90%;
+}
+
+.event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 2px solid white;
+    /* max-height: 300px; */
+}
+.event > img{
+    width: 300px;
+    height: 200px;
+    aspect-ratio: initial;
+    border-radius: 8px;
+}
+
+.event-detail{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    /* height: fit-content; */
+    /* overflow: hidden; */
+}
+.event_inner_cont{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 15px;
+}
+.poster > img{
+    max-width: 400px;
+    aspect-ratio: initial;
+}
+.content{
+    width: 50%;
+    text-align: center;
+    /* max-height: 400px; */
+    height: fit-content;
+}
+
+.content > p{
+    text-align: left;
+}
+
+.event{
+    background-color: white;
+    border-radius: 8px;
+}
+.event > img{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.event > a{
+    color: black;
+}
+
+@media only screen and (max-width : 700px){
+    .event-detail{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .content{
+        width: 90%;
+    }
+}
+@media only screen and (max-width : 800px) {
+    .event_inner_cont{
+        flex-direction: column;
+    }
+}
