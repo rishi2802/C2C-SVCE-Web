@@ -105,7 +105,38 @@ function Events() {
         Students presented diverse projects, from smart inventory to medical monitoring apps, during the NBA project display.
     </p>
 </VerticalTimelineElement>
-                
+<VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="12 & 13 May 2023"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">Squid Game</h3>
+                <p>
+                Drawing 400 participants from all departments, SQUID GAME Live at Highway 2023 transformed the college ground into a dystopian arena, featuring challenges inspired by the popular TV series. 
+                </p></VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="11 & 12 May 2023"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">IPL auction 2.0</h3>
+                <p>
+                IPL Auction 2.0 introduced card-based dream team creation with budget management and player bidding. Participants competed for the highest scores, earning recognition from the club.                 </p></VerticalTimelineElement>
+               
+        <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="11 & 12 May 2023"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">Laser tag 2.0</h3>
+                <p>
+                Laser Tag 2.0 featured participants navigating a darkened arena with high-tech laser guns and vests, emphasizing strategy and teamwork for a thrilling battle.</p>            </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -237,7 +268,42 @@ function Events() {
                 A Hands on Learning Session on Object-Oriented Programming, Participants were given exposure to the real-time usage of OOPS concepts in real life. It was organised with a total of 70 participants.
                 </p>
             </VerticalTimelineElement>
-           
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="4 & 5 May 2022"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">Movie Screening</h3>
+                <p>
+                Top rated movies were screened, one on each day in a hall of 150 people. The Movies were selected by the majority of the participants and the most liked movie was screened with a total of 300 participants and 50 volunteers.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="4 May 2022"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">IPL Auction</h3>
+                <p>
+                IPL Auction was conducted with about 100 participants and 50 volunteers in organising it.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="3 & 4 May 2022"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                <h3 className="vertical-timeline-element-title">Lazer Tag</h3>
+                <p>
+                It is a recreational shooting sport where participants use infraredemitting light guns to tag designated targets. It was organised with about 100 volunteers and a total of 900 participants.
+                </p>
+            </VerticalTimelineElement>
           
             <VerticalTimelineElement
                     className="vertical-timeline-element--work"
